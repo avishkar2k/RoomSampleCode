@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">RoomDatabaseSample</string>
-    <string name="google_maps_key">AIzaSyDWWNHJD2E_x6z4UEIQZ6Z5Yxs-OiasKuc</string>
-    <string name="s_allow">Allow</string>
-    <string name="s_deny">Deny</string>
-    <string name="s_message_location_permission_request">App needs permission to access your Location in order to find nearby restaurants</string>
-    <string name="s_select_your_address">Select your address</string>
-
-</resources>

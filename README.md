@@ -1,2 +1,0 @@
-# RoomSampleCode
-Room database architecture
