@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_item_container"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_10"
+    android:background="@color/gray"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="true"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/iv_logo_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:padding="@dimen/dp_10"
+        tools:src="@mipmap/ic_launcher" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_logo_icon"
+        android:layout_toEndOf="@id/iv_logo_icon"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dp_10"
+        android:textSize="@dimen/sp_20"
+        tools:text="Title of the Restaurant" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_ratings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_toEndOf="@id/iv_logo_icon"
+        android:drawablePadding="@dimen/dp_10"
+        android:drawableStart="@android:drawable/btn_star_big_on"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/sp_13"
+        tools:text="Title of the Restaurant" />
+
+</RelativeLayout>
